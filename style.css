@@ -94,7 +94,17 @@ body{
     box-shadow: 5px 10px 20px #485460;
 }
 
-
+.my-class{
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    background: #d2dae2;
+    padding: 10px;
+    box-shadow: 5px 10px 20px rgba(44, 42, 42, 0.151);
+    border-radius: 5px;
+    outline: none;
+    border: .5px dotted black;
+}
 
 /* .input-field {
     width: 400px;
@@ -103,5 +113,10 @@ body{
     border: none;
     margin: 5px 0;
   } */
-  
+
+  .icon-class[disabled] {
+    cursor: none;
+  }
+
+
 
